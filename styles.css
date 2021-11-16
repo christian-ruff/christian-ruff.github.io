@@ -3,19 +3,45 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+.assignments {
+    display:flex;
+    flex-wrap:wrap;
+}
+
 .assignment {
-    display: flex;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     background: white;
+    border-radius: 5px;
+    width: 22%;
 }
 
 .assignment img {
     width: 200px;
-    padding: 10px;
+    margin: 10px;
+    border: 2px solid #286e84;
+    display:block;
+    margin:auto;
+}
+
+.assignment img:hover {
+    border: 2px solid #0e3642;
 }
 
 h1 {
     color: #286e84;
     text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #286e84;
+}
+
+a:hover {
+    color: #0e3642;
 }
